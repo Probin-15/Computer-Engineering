@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    body {
+        background-color: #000;
+      color: white;
+        margin: 0;
+    }
+    h1 {
+      text-align: center;
+      color:cyan;
+
+    }
+    form {
+      width: 30%;
+      margin: 0 auto;
+    }
+    label {
+        font-size:x-large;
+        display: block;
+        margin-bottom: 10px;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    input[type="submit"] {
+      background-color:crimson;
+      width:105%;
+      font-size: large;
+      font-weight:bold;
+      color:wheat;
+      cursor: pointer;
+    }
+    p {
+      text-align: center;
+    }
+    a {
+       text-align: center; 
+      font-size: large;
+        color:white;
+      text-decoration:none;
+    }
+  </style>
+</head>
+<body>
+  <br><br><br><br><br><h1>Login</h1>
+  <form action="/login" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br>
+    <br><label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+    <br><input type="submit" value="Login">
+  </form>
+  <p>Don't have an account? <a href="/signup">Sign up here</a>.</p>
+</body>
+</html>
