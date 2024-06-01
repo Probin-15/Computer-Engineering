@@ -1,1 +1,3 @@
 # Computer-Engineering
+
+Welcome to the Computer Engineering Study Material repository! This repository is designed to provide study resources for computer engineering students. You'll find valuable materials here.
